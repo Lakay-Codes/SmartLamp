@@ -11,9 +11,9 @@ Subscribe - LampRq
 #define MSG_BUFFER_SIZE  (50)
 
 // Update these with values suitable for your network.
-const char* ssid = "JuanKulas";
-const char* password = "wifipass0011";
-const char* mqtt_server = "192.168.1.30";
+const char* ssid = "youwifiname";
+const char* password = "youwifipassword";
+const char* mqtt_server = "yourserveripaddress";
 const uint16_t PixelCount = 29; // this example assumes 4 pixels, making it smaller will cause a failure
 const uint8_t PixelPin = 2;  // make sure to set this to the correct pin, ignored for Esp8266
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(PixelCount, PixelPin, NEO_GRB + NEO_KHZ800);
